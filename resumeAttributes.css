@@ -1,0 +1,60 @@
+.indentation-one{
+    margin-left: 25px;
+    position: relative;
+}
+
+.indentation-two{
+    margin-left: 35px;
+    position: relative;
+}
+
+.indentation-three{
+    margin-left: 50px;
+    position: relative;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    float: right;
+    text-align: right;
+}
+
+.align-address{
+    text-align: right;
+}
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: normal;
+}
+
+*:not(h2):not(h3):not(h4){
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    font-style: normal;
+}
+
+.name-font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    border: 1px solid black;
+}
+
+.address-container{
+    position: relative;
+    max-width: 100%;
+    white-space: nowrap;
+    display: block;
+}
+
+.container{
+    position: relative;
+    max-width: 100%;
+    white-space: nowrap;
+    display: block;
+}
